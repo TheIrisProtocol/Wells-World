@@ -1,0 +1,39 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color:grey;
+  
+}
+
+h1 {
+  color: #373fff;
+}
+a{
+  text-decoration:none;
+  color:black;
+}
+nav{
+  background-color:black;
+  color:white;
+}
+table,th,td { 
+  color:white;
+}
+div.centbox{
+  float:center;
+  background-color:black;
+  color:white;
+  text-align:center;
+  position:relative;
+  left:13%;
+  width: 75%;
+  height:750px;
+}
+div.nav{
+  z-index:10;
+  position: sticky;
+  top:0;
+  background-color: black;
+}
