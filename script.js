@@ -1,5 +1,8 @@
-/* If you're feeling fancy you can add interactivity 
-    to your site with Javascript */
-
-// prints "hi" in the browser's dev tools console
-console.log("hi");
+function cmdPrompt(){
+var command = prompt("Command:", "Enter Site Command");
+    switch(command){
+      default:
+        alert("Unkown Command");
+    }
+}
+document.getElementById("prompt").addEventListener("click", cmdPrompt);
