@@ -5,3 +5,5 @@ var command = prompt("Command:", "Enter Site Command");
     }else{
 alert("Prompt Worked!");
 }
+}
+document.getElementById("prompt").addEventListener("click", cmdPrompt);
